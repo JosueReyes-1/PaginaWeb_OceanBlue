@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url("fonts/roboto/stylesheet.css");
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+p{
+    color:#747d88;
+}
+
+/*header*/
+.header{
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(rgba(21,29,51,0.8),rgba(21,29,51,0.8)),
+    url(../img/pagina-web/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.contenido-header{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    margin: auto;
+    text-align: center;
+    color: #f2f2f2;
+}
+.contenido-header img{
+    height: 350px;
+}
+.eslogan h1{
+    font-size: 55px;
+}
+
+
+
+/*seccion-caracteristicas*/
+
+.seccion-caract{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.seccion-caract h1{
+    font-size: 40px;
+    color: #353740;
+}
+.container-cards{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    
+}
+.card img{
+    height: 55px;
+}
+.card h2{
+    color: #353740;
+    font-size: 25px;
+}
+/*seccion-info*/
+
+.seccion-info{
+    width: 100%;
+}
+
+.contenedor-info-pagina{
+    width: 80%;
+    height: 800px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.contenedor-info-pagina img{
+    height:500px;
+}
+.info-pagina{
+    width: 70%;
+}
+.info-pagina h2{
+    font-size: 50px;
+    color: #353740;
+}
+
+.contenedor-beneficios{
+    width: 70%;
+    height: 1500px;
+    
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.info-beneficios{
+    text-align: center;
+}
+.info-beneficios h1{
+    font-size: 40px;
+    color: #353740;
+}
+.lista-bene{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-bene{
+    width: 45%;
+    padding: 50px;
+    display: flex;
+}
+.card-bene img{
+    height: 50px;
+    margin-right: 20px;
+}
+.card-bene-info h2{
+    font-size: 25px;
+    color: #353740;
+}
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(21,29,51,0.8),rgba(21,29,51,0.8)),
+    url(../img/pagina-web/fondo-banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.contenido-banner{
+    width: 80%;
+    height: 100%;
+    
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.info-banner{
+    width: 50%;
+}
+.info-banner h2{
+    color: #ffff;
+    font-size: 50px;
+}
+.info-banner p{
+    font-size: 20px;
+    color: #f2f2f2;
+}
+.info-banner a{
+    display: block;
+    width: 20%;
+    margin-top: 25px;
+    padding: 5px 0px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #3A5685;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+/*alcance*/
+
+.alcance{
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    
+}
+.contenido-alcance{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.card-alcance{
+    width: 50%;
+    display: flex;
+}
+.num{
+    color: #3A5685;
+    margin-right: 20px;
+}
+.info-alcance{
+    width: 100%;
+    height: 150px;
+    
+}
+.info-alcance h2{
+    font-size: 25px;
+    color: #353740;
+}
+
+
+@media (max-width:1390px){
+    /*header*/
+    .contenido-header img{
+        height: 250px;
+    }
+
+    .contenedor-info-pagina img{
+        height: 400px;
+    }
+    .contenedor-beneficios{
+        width: 90%;
+        height: 1400px;
+        
+    }
+}
+@media (max-width:1300px){
+    .card-bene{
+        width: 100%;
+        
+    }
+}
+@media (max-width:1100px){
+    .container-cards{
+        width: 90%;
+    }
+
+    .contenedor-info-pagina img{
+        height: 300px;
+    }
+    .contenedor-info-pagina h2{
+        font-size: 45px;
+    }
+    .contenedor-beneficios{
+        width: 100%;
+        
+        
+    }
+    
+}
+@media (max-width:900px){
+    .contenido-header img{
+        height: 200px;
+    }
+    .eslogan h1{
+        font-size: 40px;
+    }
+
+
+    .info-pagina h2{
+        font-size: 35px;
+    }
+
+    .contenedor-beneficios{
+        width: 70%;
+        height: 2000px;
+    }
+    .lista-bene{
+        flex-direction: column;
+    }
+
+
+
+    .banner{
+        height: 600px;
+    }
+    .info-banner a{
+        width: 50%;
+    }
+}
+
+
+@media (max-width:800px){
+    .contenido-header{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .eslogan{
+        width: 90%;
+    }
+    /*seccion-carct*/
+    .seccion-caract{
+        
+        width: 90%;
+        height: 1000px;
+        margin: auto;
+    }
+    .seccion-caract h1{
+        margin-top: 100px;
+        font-size: 30px;
+    }
+    .container-cards{
+        width: 50%;
+        flex-direction: column;
+    }
+    .card{
+        padding-top: 100px;
+    }
+
+
+    /*seccion-info*/
+
+    .contenedor-info-pagina{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .contenedor-beneficios{
+        width: 90%;
+        height:auto;
+    }
+    .lista-bene{
+        width: 90%;
+    }
+    /*banner*/
+    .info-banner{
+        width: 90%;
+    }
+    .info-banner h2{
+        font-size: 30px;
+    }
+
+    /*alcance*/
+    .alcance{
+        
+        width: 100%;
+        
+    }
+    .contenido-alcance{
+       
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .card-alcance{
+        width: 80%;
+        height: 200px;
+    }
+}
+
+@media (max-width:600px){
+    .contenido-header img{
+        height:150px;
+    }
+
+
+    .seccion-caract{
+        height: 1300px;
+    }
+
+    .contenedor-info-pagina{
+        height: 600px;
+    }
+
+    .contenedor-info-pagina img{
+        height: 200px;
+    }
+    .info-pagina{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .info-pagina h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+
+    }
+
+    .info-beneficios{
+        width: 93%;
+        margin: auto;
+        margin-bottom: 20px;
+    } 
+    .info-beneficios h1{
+        margin-bottom : 10px;
+        font-size: 30px;
+    }
+    .contenedor-beneficios{
+        width: 100%;
+       
+    }
+    .lista-bene{
+        width: 100%;
+        padding: 0%;
+        margin: 0;
+        
+    }
+    .card-bene{
+        width: 70%;
+        padding: 60px 0px;
+        margin: auto;
+        text-align:center ;
+        flex-direction: column;
+    }
+    .card-bene-info{
+        width: 100%;
+    }
+    .card-bene img{
+        margin-bottom: 10px;
+    }
+
+
+    .info-banner h2{
+        margin-bottom: 20px;
+    }
+
+
+    .alcance{
+        margin-top: 50px;
+        height: auto;
+    }
+    .contenido-alcance{
+    
+        height: 800px;
+    }
+    .card-alcance{
+        height: 700px;
+    }    
+       
+
+
+}
